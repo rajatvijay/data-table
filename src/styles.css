@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+table {
+  width: 800px;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-collapse: collapse;
+}
+
+.sorter {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
+
+.paginationContainer {
+  max-width: 800px;
+  text-align: center;
+}
+
+.paginationContainer ul {
+  list-style-type: none;
+}
+
+.paginationContainer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+li {
+  border: 1px solid #dbdbdb;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+li.currentPageNo {
+  background: chocolate;
+  color: white;
+}
+
+li.moreIndicator {
+  border: none;
+}
